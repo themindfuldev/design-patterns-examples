@@ -12,7 +12,7 @@ ball.addObserver(dog);
 human.addObserver(dog);
 
 var cat = function(message) {
-   console.log('The cat looked and ignored the ' + message);
+  console.log('The cat looked and ignored the ' + message);
 };
 ball.addObserver(cat);
 human.addObserver(cat);
